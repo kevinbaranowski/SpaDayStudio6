@@ -16,3 +16,54 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.colorContainer {
+  border: 1px solid black;
+  padding: 7px;
+  margin: 3px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#aqua {
+  background-color: aqua;
+}
+
+#red {
+  background-color: red;
+}
+
+#green {
+  background-color: green;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#purple {
+  background-color: purple;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#navy {
+  background-color: navy;
+}
+
+#white {
+  background-color: white;
+}
+
+#maroon {
+  background-color: maroon;
+}
+
+#nailColorContainer {
+  display: flex;
+  justify-content: left;
+}

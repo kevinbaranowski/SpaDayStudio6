@@ -1,0 +1,23 @@
+<form method='post' asp-controller="User" asp-action="SubmitAddUserForm">
+    <label for='email'>Email</label>
+    <br>
+    <input type='email' name='email' id='email' value="@ViewBag.Email">
+    <br>
+    <label for='username'>Username</label>
+    <br>
+    <input type='text' name='username' id='username' value="@ViewBag.Username">
+    <br>
+    <label for='password'>Password</label>
+    <br>
+    <input type='password' name='password' id='password'>
+    <br>
+    <label for='confirmPassword'>Confirm Password</label>
+    <br>
+    <input type='password' name='verify' id='confirmPassword'>
+    <br>
+    <button type='submit' style="margin-top: 20px;">Submit</button>
+</form>
+@if (ViewBag.error != null)
+{
+    <p style="color: red;">@ViewBag.error</p>
+}
